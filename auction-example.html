@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVE AUCTION: Estate Collection of Dr. William Harrison | July 20, 2025 | Muscarelli Auction</title>
+    <meta name="description" content="Don't miss this exceptional estate auction featuring fine jewelry, antiques, art, and collectibles. Preview starts July 18. Register to bid online or in-person.">
+    
+    <!-- Prevent indexing -->
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="LIVE AUCTION: Estate Collection | Muscarelli Auction Company">
+    <meta property="og:description" content="500+ lots including fine art, jewelry, antiques & rare collectibles. Register to bid online or in-person.">
+    <meta property="og:image" content="https://muscarelliauctions.com/images/logo.jpg">
+    <meta property="og:url" content="https://muscarelliauctions.com/auctions/estate-collection">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Muscarelli Auction Company">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LIVE AUCTION: Estate Collection | Muscarelli Auction">
+    <meta name="twitter:description" content="500+ lots including fine art, jewelry, antiques & rare collectibles. Register to bid.">
+    <meta name="twitter:image" content="https://muscarelliauctions.com/images/logo.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://muscarelliauctions.com/auctions/estate-collection">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Estate Collection of Dr. William Harrison",
+        "startDate": "2025-07-20T14:00:00-04:00",
+        "endDate": "2025-07-20T18:00:00-04:00",
+        "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+            "@type": "Place",
+            "name": "Muscarelli Auction Company",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "3419 Highway 70 SW",
+                "addressLocality": "Hickory",
+                "addressRegion": "NC",
+                "postalCode": "28602",
+                "addressCountry": "US"
+            }
+        },
+        "image": "https://muscarelliauctions.com/images/hero.jpg",
+        "description": "500+ lot estate auction featuring fine jewelry, antiques, art, and collectibles",
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.proxibid.com/Muscarelli-Auction-Company/event-catalog/282160",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2025-07-14T00:00:00-04:00"
+        },
+        "organizer": {
+            "@type": "Organization",
+            "name": "Muscarelli Auction Company",
+            "url": "https://muscarelliauctions.com"
+        }
+    }
+    </script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://images.proxibid.com">
+    
+    <style>
+        :root {
+            --primary-color: #1a1a1a;
+            --accent-color: #e31e24;
+            --accent-hover: #c41a1f;
+            --text-light: #666;
+            --border-light: #e5e5e5;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--primary-color);
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%);
+        }
+        
+        .btn-primary {
+            background: var(--accent-color);
+            color: white;
+            padding: 16px 32px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-size: 1rem;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        .btn-primary:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(227, 30, 36, 0.3);
+        }
+        
+        .countdown-item {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            min-width: 100px;
+        }
+        
+        .featured-lot {
+            transition: all 0.3s ease;
+        }
+        
+        .featured-lot:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fade-in {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        
+        .urgency-banner {
+            background: linear-gradient(90deg, #e31e24 0%, #c41a1f 100%);
+            animation: slideIn 1s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        
+        #formMessage.success {
+            background-color: #10b981;
+            color: white;
+        }
+        
+        #formMessage.error {
+            background-color: #ef4444;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Urgency Banner -->
+    <div class="urgency-banner text-white py-3 text-center text-sm font-semibold">
+        <div class="container mx-auto px-4">
+            <p><i class="fas fa-clock mr-2"></i>AUCTION STARTS IN 6 DAYS! Early bird preview this Friday & Saturday. <a href="#register" class="underline">Register Now →</a></p>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <img src="https://muscarelliauctions.com/images/logo.jpg" 
+                         alt="Muscarelli Auction Company Logo" 
+                         class="h-16 w-16 object-contain mr-3">
+                    <div>
+                        <h2 class="text-xl font-bold">Muscarelli Auction Company</h2>
+                        <p class="text-xs text-gray-600">NCAL #8520 | Since 2010</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-4">
+                    <a href="#register" class="btn-primary pulse-animation">
+                        <i class="fas fa-gavel mr-2"></i> Register to Bid
+                    </a>
+                    <a href="tel:8283027584" class="text-gray-700 hover:text-black">
+                        <i class="fas fa-phone mr-2"></i> (828) 302-7584
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Countdown -->
+    <section class="relative h-[600px] overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://muscarelliauctions.com/images/hero.jpg" 
+                 alt="Estate Auction Preview" 
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 hero-gradient"></div>
+        </div>
+        <div class="relative container mx-auto px-4 h-full flex items-center">
+            <div class="max-w-4xl mx-auto text-center text-white animate-fade-in">
+                <div class="bg-yellow-500 text-black inline-block px-4 py-2 rounded-full text-sm font-bold mb-4">
+                    <i class="fas fa-star mr-2"></i>FEATURED ESTATE AUCTION
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+                    The Dr. William Harrison<br>
+                    Estate Collection
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-gray-200">
+                    500+ Lots Including Fine Art, Jewelry, Antiques & Rare Collectibles
+                </p>
+                
+                <div class="flex justify-center gap-4 mb-8">
+                    <div class="countdown-item text-center">
+                        <div class="text-3xl font-bold" id="days">6</div>
+                        <div class="text-sm uppercase">Days</div>
+                    </div>
+                    <div class="countdown-item text-center">
+                        <div class="text-3xl font-bold" id="hours">14</div>
+                        <div class="text-sm uppercase">Hours</div>
+                    </div>
+                    <div class="countdown-item text-center">
+                        <div class="text-3xl font-bold" id="minutes">23</div>
+                        <div class="text-sm uppercase">Minutes</div>
+                    </div>
+                    <div class="countdown-item text-center">
+                        <div class="text-3xl font-bold" id="seconds">47</div>
+                        <div class="text-sm uppercase">Seconds</div>
+                    </div>
+                </div>
+                
+                <div class="text-xl mb-2">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    <strong>Sunday, July 20, 2025 | 2:00 PM EST</strong>
+                </div>
+                <div class="text-lg text-gray-300">
+                    <i class="fas fa-map-marker-alt mr-2"></i>
+                    3419 Highway 70 SW, Hickory, NC 28602
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Information Bar -->
+    <section class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                <div>
+                    <i class="fas fa-eye text-3xl mb-2 text-yellow-400"></i>
+                    <h3 class="font-bold mb-1">Preview Days</h3>
+                    <p class="text-sm">Fri & Sat: 10AM-5PM<br>Sun: 11AM-2PM</p>
+                </div>
+                <div>
+                    <i class="fas fa-gavel text-3xl mb-2 text-yellow-400"></i>
+                    <h3 class="font-bold mb-1">Bidding Options</h3>
+                    <p class="text-sm">Live In-Person<br>Online via Proxibid</p>
+                </div>
+                <div>
+                    <i class="fas fa-percentage text-3xl mb-2 text-yellow-400"></i>
+                    <h3 class="font-bold mb-1">Buyer's Premium</h3>
+                    <p class="text-sm">18% In-Person<br>23% Online</p>
+                </div>
+                <div>
+                    <i class="fas fa-truck text-3xl mb-2 text-yellow-400"></i>
+                    <h3 class="font-bold mb-1">Shipping Available</h3>
+                    <p class="text-sm">Nationwide Delivery<br>Pack & Ship Service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Lots -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Featured Lots</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+                <div class="featured-lot bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.proxibid.com/AuctionImages/8867/282169/FullSize/201.jpg" 
+                             alt="Diamond Ring" 
+                             class="w-full h-64 object-cover">
+                        <div class="absolute top-4 left-4 bg-yellow-500 text-black px-3 py-1 rounded text-sm font-bold">
+                            LOT 142
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold mb-2">3.5ct Diamond Solitaire Ring</h3>
+                        <p class="text-sm text-gray-600 mb-3">GIA Certified, VS1 Clarity</p>
+                        <div class="text-lg font-bold text-red-600">Est. $15,000 - $20,000</div>
+                    </div>
+                </div>
+                
+                <div class="featured-lot bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.proxibid.com/AuctionImages/8867/281544/FullSize/542.jpg" 
+                             alt="Oil Painting" 
+                             class="w-full h-64 object-cover">
+                        <div class="absolute top-4 left-4 bg-yellow-500 text-black px-3 py-1 rounded text-sm font-bold">
+                            LOT 87
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold mb-2">Original Oil by Thomas Hart</h3>
+                        <p class="text-sm text-gray-600 mb-3">Signed, 24" x 36"</p>
+                        <div class="text-lg font-bold text-red-600">Est. $8,000 - $12,000</div>
+                    </div>
+                </div>
+                
+                <div class="featured-lot bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.proxibid.com/AuctionImages/8867/282160/FullSize/4.jpg" 
+                             alt="Pocket Watch" 
+                             class="w-full h-64 object-cover">
+                        <div class="absolute top-4 left-4 bg-yellow-500 text-black px-3 py-1 rounded text-sm font-bold">
+                            LOT 205
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold mb-2">1890s Patek Philippe Pocket Watch</h3>
+                        <p class="text-sm text-gray-600 mb-3">18k Gold, Original Box</p>
+                        <div class="text-lg font-bold text-red-600">Est. $25,000 - $35,000</div>
+                    </div>
+                </div>
+                
+                <div class="featured-lot bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://images.proxibid.com/AuctionImages/8867/281544/FullSize/542.jpg" 
+                             alt="Antique Vase" 
+                             class="w-full h-64 object-cover">
+                        <div class="absolute top-4 left-4 bg-yellow-500 text-black px-3 py-1 rounded text-sm font-bold">
+                            LOT 318
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold mb-2">Ming Dynasty Porcelain Vase</h3>
+                        <p class="text-sm text-gray-600 mb-3">Authenticated, 14" Height</p>
+                        <div class="text-lg font-bold text-red-600">Est. $40,000 - $60,000</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="https://www.proxibid.com/Muscarelli-Auction-Company/auction-house/8867" 
+                   target="_blank"
+                   class="btn-primary">
+                    View All 500+ Lots <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="register" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <!-- Left Column - Benefits -->
+                    <div>
+                        <h2 class="text-3xl font-bold mb-6">Why Register Early?</h2>
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-start">
+                                <i class="fas fa-check-circle text-green-600 text-xl mr-3 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold mb-1">Exclusive Preview Access</h3>
+                                    <p class="text-gray-600">Get first look at all items during preview days</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-check-circle text-green-600 text-xl mr-3 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold mb-1">Condition Reports</h3>
+                                    <p class="text-gray-600">Request detailed reports on any lot</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-check-circle text-green-600 text-xl mr-3 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold mb-1">Bid from Anywhere</h3>
+                                    <p class="text-gray-600">Live online bidding via Proxibid</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-check-circle text-green-600 text-xl mr-3 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold mb-1">Email Reminders</h3>
+                                    <p class="text-gray-600">Never miss the auction start</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gray-100 p-6 rounded-lg">
+                            <h3 class="font-bold mb-3">About This Estate</h3>
+                            <p class="text-gray-700 text-sm leading-relaxed">
+                                Dr. William Harrison was a renowned collector for over 40 years, amassing an extraordinary collection of fine art, jewelry, and antiques. This carefully curated estate features museum-quality pieces from around the world, including rare Asian artifacts, European paintings, and important American furniture.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column - Registration Form -->
+                    <div class="bg-red-50 p-8 rounded-lg border-2 border-red-600">
+                        <h2 class="text-2xl font-bold mb-2 text-center">Register to Bid</h2>
+                        <p class="text-center text-gray-600 mb-6">Free registration • No obligation</p>
+                        
+                        <form id="registrationForm" 
+                              name="auction-registration" 
+                              method="POST" 
+                              action="/?success=true#register" 
+                              data-netlify="true" 
+                              netlify-honeypot="bot-field" 
+                              data-netlify-recaptcha="true"
+                              class="space-y-4">
+                            <input type="hidden" name="form-name" value="auction-registration">
+                            <p class="hidden">
+                                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                            </p>
+                            <div class="grid grid-cols-2 gap-4">
+                                <input type="text" 
+                                       name="firstName" 
+                                       placeholder="First Name" 
+                                       required
+                                       class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-red-600">
+                                <input type="text" 
+                                       name="lastName" 
+                                       placeholder="Last Name" 
+                                       required
+                                       class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-red-600">
+                            </div>
+                            <input type="email" 
+                                   name="email" 
+                                   placeholder="Email Address" 
+                                   required
+                                   class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-red-600">
+                            <input type="tel" 
+                                   name="phone" 
+                                   placeholder="Phone Number" 
+                                   required
+                                   class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-red-600">
+                            <select name="bidMethod" 
+                                    required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-red-600 bg-white">
+                                <option value="">How will you bid?</option>
+                                <option value="in-person">In-Person at Auction House</option>
+                                <option value="online">Online via Proxibid</option>
+                                <option value="both">Both In-Person & Online</option>
+                                <option value="phone">Phone Bidding</option>
+                            </select>
+                            <div class="space-y-2">
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="preview" class="mr-2">
+                                    <span class="text-sm">I plan to attend the preview</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="checkbox" name="updates" checked class="mr-2">
+                                    <span class="text-sm">Send me auction updates & reminders</span>
+                                </label>
+                            </div>
+                            <div data-netlify-recaptcha="true"></div>
+                            <button type="submit" class="btn-primary w-full text-center">
+                                Complete Registration <i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </form>
+                        <div id="formMessage" class="hidden mt-4 p-4 rounded text-sm"></div>
+                        
+                        <div class="mt-6 text-center text-sm text-gray-600">
+                            <p>Questions? Call us at <a href="tel:8283027584" class="font-bold text-red-600">(828) 302-7584</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Preview -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h3 class="text-2xl font-bold text-center mb-8">Categories in This Auction</h3>
+            <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+                <span class="bg-white px-4 py-2 rounded-full text-sm font-medium">Fine Jewelry (127 lots)</span>
+                <span class="bg-white px-4 py-2 rounded-full text-sm font-medium">Paintings & Prints (84 lots)</span>
+                <span class="bg-white px-4 py-2 rounded-full text-sm font-medium">Asian Art (62 lots)</span>
+                <span class="bg-white px-4 py-2 rounded-full text-sm font-medium">Silver & Metalware (55 lots)</span>
+                <span class="bg-white px-4 py-2 rounded-full text-sm font-medium">Furniture (48 lots)</span>
+                <span class="bg-white px-4 py-2 rounded-full text-sm font-medium">Watches (41 lots)</span>
+                <span class="bg-white px-4 py-2 rounded-full text-sm font-medium">Coins & Currency (38 lots)</span>
+                <span class="bg-white px-4 py-2 rounded-full text-sm font-medium">Crystal & Glass (45 lots)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Don't Miss This Exceptional Auction</h2>
+            <p class="text-xl mb-8 text-gray-300">Join us Sunday, July 20th at 2:00 PM</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#register" class="btn-primary">
+                    <i class="fas fa-gavel mr-2"></i> Register Now
+                </a>
+                <a href="https://www.proxibid.com/Muscarelli-Auction-Company/auction-house/8867" 
+                   target="_blank"
+                   class="bg-white text-gray-900 px-8 py-4 font-semibold rounded hover:bg-gray-100 transition">
+                    <i class="fas fa-list mr-2"></i> View Full Catalog
+                </a>
+                <a href="tel:8283027584" 
+                   class="border-2 border-white text-white px-8 py-4 font-semibold rounded hover:bg-white hover:text-gray-900 transition">
+                    <i class="fas fa-phone mr-2"></i> (828) 302-7584
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simple Footer -->
+    <footer class="bg-black text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://muscarelliauctions.com/images/footer-logo.jpg" 
+                 alt="Muscarelli Auction Company Footer Logo" 
+                 class="h-16 mx-auto mb-4 opacity-80">
+            <p class="text-sm text-gray-400">© 2025 Muscarelli Auction Company | Ted Muscarelli NCAL #8520</p>
+            <div class="flex justify-center gap-4 mt-4">
+                <a href="https://www.facebook.com/MuscarelliAuctionCompany" target="_blank" class="text-gray-400 hover:text-white">
+                    <i class="fab fa-facebook text-xl"></i>
+                </a>
+                <a href="https://www.proxibid.com/Muscarelli-Auction-Company/auction-house/8867" target="_blank" class="text-gray-400 hover:text-white">
+                    <i class="fas fa-gavel text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const auctionDate = new Date('2025-07-20T14:00:00-04:00'); // July 20, 2025 2:00 PM EST
+            const now = new Date();
+            const difference = auctionDate - now;
+            
+            if (difference > 0) {
+                const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+                
+                document.getElementById('days').textContent = days;
+                document.getElementById('hours').textContent = hours;
+                document.getElementById('minutes').textContent = minutes;
+                document.getElementById('seconds').textContent = seconds;
+            } else {
+                document.querySelector('.countdown').innerHTML = '<h2 class="text-3xl font-bold">Auction In Progress!</h2>';
+            }
+        }
+        
+        // Update countdown every second
+        setInterval(updateCountdown, 1000);
+        updateCountdown(); // Initial call
+        
+        // Handle Netlify form success
+        window.addEventListener('DOMContentLoaded', function() {
+            if (window.location.search.includes('success=true')) {
+                const formMessage = document.getElementById('formMessage');
+                formMessage.textContent = 'Thank you for registering! We\'ll send you auction reminders and preview information to your email.';
+                formMessage.classList.remove('hidden', 'error');
+                formMessage.classList.add('success');
+                // Scroll to form section
+                document.getElementById('register').scrollIntoView({ behavior: 'smooth' });
+                // Remove the success parameter from URL
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
